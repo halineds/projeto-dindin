@@ -1,0 +1,225 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Ubuntu', sans-serif, Nunito;
+    
+}
+body{
+  box-sizing: border-box;
+  display:block;
+} 
+.container{
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  box-sizing: border-box;
+}
+
+header {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    background: #2E948A ;
+    display: block;
+    box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.25);
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+.link1{
+  text-decoration: none;
+  margin-bottom: 14px;
+  align-items: center;
+  display: flex;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+
+.link1 img{
+box-sizing: border-box;
+}
+
+#span-inicio{
+  font-size: 56px;
+  font-weight: 500;
+  color: #FFFFFF;
+  line-height: 64px;
+  position: relative;
+  width: auto;
+  }
+
+.pad-home{
+  margin-left: 90px;
+
+  }
+
+.list-menu{
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  align-items: center;
+  margin-left: -60%;
+}
+
+.list-item{
+  box-sizing: border-box;
+  display: list-item;
+  text-align: center;
+}
+
+.menu-link{
+  color: #FFFFFF;
+  text-decoration: none;
+  display: block;
+  padding-right: 20px;
+}
+
+//Sessão formulário //
+
+.img-form img{
+  padding: 150px;
+  display: flex;
+}
+.contact {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 201px;
+  justify-content:center;
+}
+.contact > form{
+  width: 820px;
+  height: 766px;
+  margin: 0px 0px 0px 15px;
+  display: flex;
+  justify-content:center;
+  flex-direction: column;
+  align-items: center;
+  padding: 60px 30px 60px 30px;
+}
+
+.contact form label{
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  align-self: flex-start;
+  margin: 0px 0px 80px 0px;
+  line-height: 46px;
+  color: #FF4081;
+}
+
+.contact form input{
+  font-family: 'Nunito', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #58555D;
+  border: 1px solid #686868;
+  border-radius: 7px;
+  width: 750px;
+  padding: 15px 30px 15px 30px;
+  margin: 0px 0px 20px 0px;
+}
+
+.contact form textarea{
+  font-family: 'Nunito', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #58555D;
+  border: 1px solid #686868;
+  border-radius: 7px;
+  width: 750px;
+  padding: 15px 30px 200px 30px;
+  margin: 0px 0px 20px 0px;
+  resize: none;
+}
+
+.contact form #submit{
+  font-family: 'Nunito', sans-serif;
+  font-size: 16px;
+  font-weight: 800px;
+  color: #FFFFFF;
+  background: #FF4081;
+  border-radius: 50px;
+  width: 170px;
+  align-self: flex-start;
+}
+
+/*footer*/
+
+.f-div{
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+  background-color: #2E948A;
+}
+.footer{
+  background-color: #2E948A;
+  display: flex;
+  width: 400px;
+  height: 250px;
+}
+
+#footer-img{
+  padding-left: 150px;
+  margin-top: 60px;
+  
+}
+
+#texto-inicio{
+  font-size: 56px;
+  font-weight: 500;
+  color: #FFFFFF;
+  line-height: 64px;
+  position: relative;
+  width: auto;
+
+}
+#span-footer{
+  font-size: 14px;
+  display: flex;
+  margin-top: 10px;
+  margin-left: 10px;
+  font-weight: 300;
+  line-height: 22px;
+
+}
+
+.list-menu-footer{
+
+  padding-left: 25%;
+  list-style: none;
+  align-items: center;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 23px;
+}   
+
+.list-item-footer{
+  box-sizing: content-box;
+  display: list-item;
+  text-align: justify;
+  position: relative;
+  margin-bottom: 14px;
+}
+.button-f{
+
+border: 2px solid #FFFFFF;
+border-radius: 62px;
+cursor: pointer;
+margin-top: 30px;
+margin-left: 300px; 
+width: 289px;
+top: 50px;
+padding-left: 14px;
+margin-left: 100px0,0;
+background-color: #2E948A;
+padding: 10px;
+
+}
+.button-f a {
+  color: #F7F7F7;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 400;
+}
